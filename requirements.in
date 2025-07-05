@@ -1,0 +1,5 @@
+ipykernel
+nbformat
+python-dotenv
+aiohttp
+asyncio
