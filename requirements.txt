@@ -17,6 +17,10 @@ attrs==25.3.0
     #   aiohttp
     #   jsonschema
     #   referencing
+certifi==2025.6.15
+    # via requests
+charset-normalizer==3.4.2
+    # via requests
 comm==0.2.2
     # via ipykernel
 debugpy==1.8.14
@@ -32,7 +36,9 @@ frozenlist==1.7.0
     #   aiohttp
     #   aiosignal
 idna==3.10
-    # via yarl
+    # via
+    #   requests
+    #   yarl
 ipykernel==6.29.5
     # via -r requirements.in
 ipython==9.4.0
@@ -100,6 +106,8 @@ referencing==0.36.2
     # via
     #   jsonschema
     #   jsonschema-specifications
+requests==2.32.4
+    # via -r requirements.in
 rpds-py==0.26.0
     # via
     #   jsonschema
@@ -126,6 +134,8 @@ typing-extensions==4.14.1
     #   aiosignal
     #   ipython
     #   referencing
+urllib3==2.5.0
+    # via requests
 wcwidth==0.2.13
     # via prompt-toolkit
 yarl==1.20.1
